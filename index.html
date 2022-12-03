@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>
+        Oni Stays
+    </title>
+    <link rel="icon" href="https://onistays-bucket.s3.ap-south-1.amazonaws.com/oni_config/oni.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+
+    <nav class="navbar1">
+        <table>
+            <tr>
+                <td><img style="display: flex;
+                                    height: 60px;
+                                    width: 60px;"
+                        src="https://onistays-bucket.s3.ap-south-1.amazonaws.com/oni_config/oni.png" height="10px"
+                        width="10px" /></td>
+                <td><img style="
+                            display: flex;
+                                    height: 40px;
+                                width: 160px;"
+                        src="https://onistays-bucket.s3.ap-south-1.amazonaws.com/oni_config/onistays.png" />
+                </td>
+            </tr>
+        </table>
+    </nav>
+
+
+
+
+
+    <!-- 1st card -->
+    <section>
+        <div class="sec1-inner">
+            <!-- <div class="container1">
+                <p class="header-title">Through a beautifully curated platform, bringing co-living services to
+                    40M Indian youth.</p>
+                <p class="subheader-title">Hassle-free and productive hosting, as well as an affordable and
+                    immersive living experience</p>
+            </div> -->
+
+            <div class="container2">
+                <div class="row-md-2">
+                    <p class="header-title">Download The ONI Stays App</p>
+                    <a href="https://play.google.com/store/apps/details?id=com.oni.onistays"><img
+                            style=" height: 5em;width: 12em;"
+                            src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" /></a>
+                    <a href="https://apps.apple.com/us/app/oni-stays/id1625529474?itsct=apps_box_badge&amp;itscg=30200"
+                        style="border-radius: 13px; width: 250px; height: 55px;"><img
+                            src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x55&amp;releaseDate=1655769600&h=a7205f537a479ace94da7cb870be3bb3"
+                            alt="Download on the App Store ONI Stays"
+                            style="border-radius: 13px; width: 250px; height: 55px;"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- 5th card -->
+    <section>
+        <div class="footers">
+            <div class="footer-textarea">
+                <div class="container">
+                    <div class="footer-cta pt-5 pb-5">
+                        <div class="row">
+                            <div class="col-xl-4 col-md-4 mb-30">
+                                <div class="single-cta">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <div class="cta-text">
+                                        <p>Find us</p>
+                                        <span>1010 Avenue, sw 54321, Bangalore, 576104</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-md-4 mb-30">
+                                <div class="single-cta">
+                                    <i class="far fa-envelope-open"></i>
+                                    <div class="cta-text">
+                                        <p>Mail us</p>
+                                        <span>info@onistays.com</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright-area">
+                    <div class="container-fluid d-flex justify-content-center align-items-end">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2022 ONI Stays, All Right Reserved
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        </div>
+    </section>
+
+    <!-- <section class="sec" id="project">project</section>
+    <section class="sec" id="contact">contact</section> -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function () {
+
+            if (navigator.userAgent.toLowerCase().indexOf("android") != -1) {
+
+                window.location.href = 'https://play.google.com/store/apps/details?id=com.oni.onistays';
+            }
+            if (navigator.userAgent.toLowerCase().indexOf("iphone") != -1) {
+
+                window.location.href = 'https://apps.apple.com/us/app/oni-stays/id1625529474?itsct=apps_box_link&itscg=30200';
+            }
+        });
+    </script>
+</body>
+
+</html>

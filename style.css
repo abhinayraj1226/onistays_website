@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:600|Lato:400,700,900');
+
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    border: thick solid #e7edf7;
+    background-color: #e7edf7;
+
+}
+
+
+.navbar1 {
+    position: fixed;
+    top: 2%;
+    width: 100%;
+    left: 3vw;
+    z-index: 8;
+    background-color: transparent;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e7edf7;
+
+}
+
+html {
+    scroll-snap-type: y mandatory;
+    background-color: #e7edf7;
+}
+
+.container1 {
+    padding: 0 10px;
+    left: 15vw;
+    position: absolute;
+    top: 30vh;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+}
+
+.container2 {
+    padding: 0 8px;
+    left: 10vw;
+    position: absolute;
+    top: 40vh;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+
+
+}
+
+.footer-textarea {
+    height: 110%;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 10px 10px;
+
+
+}
+
+.app-icon {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-style {
+    font-size: 5vmin;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.copyright-text {
+    font-size: 1vmin;
+    color: floralwhite;
+    /* text-align: end; */
+    align-items: flex-end;
+    margin-bottom: -10px;
+    /* padding: 0 0; */
+}
+
+.app-icon {
+    position: absolute;
+    top: 75vmin;
+    left: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: left;
+    height: 100%;
+}
+
+
+.blur-container {
+    height: 100%;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+
+}
+
+
+.footers {
+    height: 30vmax;
+    width: 100%;
+    background-image: url('./asset/black_and_yellow_grunge_background.jpg');
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-color: #e7edf7;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+.header-title {
+    width: 70vw;
+    text-align: center;
+    color: #353535;
+    font-size: 5vmin;
+    font-weight: 600;
+    font-family: "Cormorant Garamond", serif;
+
+
+}
+
+.subheader-title {
+    width: 70vw;
+    text-align: center;
+    color: #000;
+    font-size: 3vmin;
+    font-weight: 400;
+    font-family: "Cormorant Garamond", serif;
+}
+
+
+
+
+.colBox {
+    width: 20vw;
+    height: 10vh;
+    background-image: url('./image/welcome_boarding.png');
+    background-repeat: no-repeat;
+    align-items: flex-end;
+    background-size: contain;
+    background-position: center;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+.sec1-inner {
+    height: 90%;
+    width: 100%;
+    background-image: url('./asset/pic1.jpg');
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-color: #e7edf7;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+section {
+    background-color: #e7edf7;
+    height: 98vh;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    display: flex;
+    align-items: flex-end;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+
+
+
+/* section:nth-of-type(even) {
+  color: white;
+  background: gray;
+}
+
+section:nth-of-type(odd) {
+  color: black;
+  background: lightcyan;
+} */
+
+
+
+.single-cta i {
+    color: #FFBF00;
+    font-size: 2vmax;
+    float: left;
+    margin: 0 10px;
+}
+
+.cta-text span {
+    color: #fff;
+    font-size: 1vmax;
+
+}
+
+.cta-text {
+    color: #fff;
+    font-size: 2.0vmin;
+}
+
+.copyright-area {
+    height: 30vmin;
+    align-items: flex-end;
+    align-content: flex-end;
+    align-self: flex-end;
+    display: flex;
+}
+
+@media only screen and (max-width: 700px) {
+    .copyright-area {
+        height: 0vmin;
+        align-items: flex-end;
+        align-content: flex-end;
+        align-self: flex-end;
+        display: flex;
+    }
+}
+
+
+.copyright-text {
+    color: #fff;
+    font-size: 1.8vmin;
+    vertical-align: bottom;
+}
